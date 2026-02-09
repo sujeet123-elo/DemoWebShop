@@ -22,7 +22,7 @@
     </classes>
   </test> <!-- Test -->
   
-  <test  name="SearchToSimpleComputerToPurachaseOrder">
+  <test  name="ReOrder">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
     <classes>
