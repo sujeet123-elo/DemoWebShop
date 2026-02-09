@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-08T23:31:23 IST" name="Suite" finished-at="2026-02-08T23:31:48 IST" duration-ms="25771">
+    <groups>
+      <group name="Master">
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.LoginAccount()[pri:1, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" name="LoginAccount" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.AddToCart()[pri:2, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" name="AddToCart" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.GoToCartAndCheckout()[pri:3, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" name="GoToCartAndCheckout" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.CheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" name="CheckoutAndBillingPaymentDelhivery" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.LoginAccount()[pri:1, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" name="LoginAccount" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.AddToCart()[pri:2, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" name="AddToCart" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.GoToCartAndCheckout()[pri:3, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" name="GoToCartAndCheckout" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.CheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" name="CheckoutAndBillingPaymentDelhivery" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2026-02-08T23:31:23 IST" name="Test" finished-at="2026-02-08T23:31:48 IST" duration-ms="25771">
+      <class name="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" started-at="2026-02-08T23:31:23 IST" name="setup" finished-at="2026-02-08T23:31:29 IST" duration-ms="5813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginAccount()[pri:1, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" started-at="2026-02-08T23:31:29 IST" name="LoginAccount" finished-at="2026-02-08T23:31:31 IST" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAccount -->
+        <test-method signature="AddToCart()[pri:2, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" started-at="2026-02-08T23:31:31 IST" name="AddToCart" finished-at="2026-02-08T23:31:35 IST" duration-ms="4143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method signature="GoToCartAndCheckout()[pri:3, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" started-at="2026-02-08T23:31:35 IST" name="GoToCartAndCheckout" finished-at="2026-02-08T23:31:38 IST" duration-ms="2680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToCartAndCheckout -->
+        <test-method signature="CheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" started-at="2026-02-08T23:31:38 IST" name="CheckoutAndBillingPaymentDelhivery" finished-at="2026-02-08T23:31:48 IST" duration-ms="10379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutAndBillingPaymentDelhivery -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@23aa363a]" started-at="2026-02-08T23:31:48 IST" name="tearDown" finished-at="2026-02-08T23:31:48 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
