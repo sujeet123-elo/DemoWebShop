@@ -4,7 +4,7 @@
 <listeners>
    <listener class-name="utilities.ExtentReportManager"/>
    </listeners>
-  <test name="Test">
+  <test name="SearchAndClickOnProductOfAutoSuggAndAddIntoCart">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
     <classes>
@@ -13,7 +13,7 @@
     </classes>
   </test> <!-- Test -->
   
-  <test  name="Test">
+  <test  name="SearchToSimpleComputerToPurachaseOrder">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
     <classes>
@@ -22,7 +22,7 @@
     </classes>
   </test> <!-- Test -->
   
-  <test  name="Test">
+  <test  name="SearchToSimpleComputerToPurachaseOrder">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
     <classes>

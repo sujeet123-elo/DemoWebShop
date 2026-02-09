@@ -45,7 +45,7 @@ public class TC006_ReOrder extends BaseClass{
 	}
 	
 	@Test(groups= {"Sanity", "Master"}, priority = 4)
-	public void CheckoutAndBillingPaymentDelhivery() throws InterruptedException {
+	public void ReCheckoutAndBillingPaymentDelhivery() throws InterruptedException {
 		
 		CheckOutPage c = new CheckOutPage(driver);
 		String ch=c.checkHeading();
