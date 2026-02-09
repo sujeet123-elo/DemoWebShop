@@ -35,6 +35,7 @@ public class HomePage extends BasePage {
 
 @FindBy(xpath="//a[normalize-space()='Log out']") WebElement lnklogOut;
 
+
 public boolean LogoutLink() {
 	try {
 	return lnklogOut.isDisplayed();
@@ -84,7 +85,28 @@ public void clickAutoSuggestion(String y) {
 	
 	
 	
-	}}}
+	}}
+
+
+@FindBy(linkText = "Orders") private WebElement Orderslink;
+
+public WebElement getOrderslink() {
+	return Orderslink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
