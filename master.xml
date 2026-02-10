@@ -8,7 +8,7 @@
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
     <classes>
-     <!--  <class name="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/> -->
+  
       <class name="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
     </classes>
   </test> <!-- Test -->
@@ -41,11 +41,11 @@
   </test> <!-- Test -->
   
   
-  <test  name="">
+  <test  name="LoginDDT">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
     <classes>
-      <class name="testCases.TC006_ReOrder"/> 
+      <class name="testCases.TC001_LoginDDT"/> 
      
     </classes>
   </test> <!-- Test -->
