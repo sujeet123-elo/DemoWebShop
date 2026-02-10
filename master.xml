@@ -30,4 +30,31 @@
      
     </classes>
   </test> <!-- Test -->
+  
+  <test  name="ClearTheCartAfterAddingProducts">
+  <parameter name ="os" value="windows"/>
+  <parameter name="browser" value ="chrome"/>
+    <classes>
+      <class name="testCases.TC005_ClearTheCart"/> 
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test  name="">
+  <parameter name ="os" value="windows"/>
+  <parameter name="browser" value ="chrome"/>
+    <classes>
+      <class name="testCases.TC006_ReOrder"/> 
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  
+  
+  
 </suite> <!-- Suite -->

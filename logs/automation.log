@@ -1,0 +1,18 @@
+07:42:05.936 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\testng.xml
+
+07:42:14.679 [main] INFO  testCases.TC006_ReOrder - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+07:48:01.351 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\testng.xml
+
+07:48:07.863 [main] INFO  testCases.TC006_ReOrder - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+07:50:23.864 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\testng.xml
+
+07:50:29.673 [main] INFO  testCases.TC005_ClearTheCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+07:54:27.249 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\testng.xml
+
+08:08:49.146 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\testng.xml
+

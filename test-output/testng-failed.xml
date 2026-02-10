@@ -8,13 +8,15 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart">
+      <class name="testCases.TC003_SearchToSimpleComputerToPurachaseOrder">
         <methods>
           <include name="tearDown"/>
-          <include name="setup"/>
           <include name="CheckoutAndBillingPaymentDelhivery"/>
+          <include name="GoToCartAndCheckout"/>
+          <include name="setup"/>
+          <include name="SearchProduct"/>
         </methods>
-      </class> <!-- testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart -->
+      </class> <!-- testCases.TC003_SearchToSimpleComputerToPurachaseOrder -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

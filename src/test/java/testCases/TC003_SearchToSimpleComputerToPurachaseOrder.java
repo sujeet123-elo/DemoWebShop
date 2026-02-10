@@ -35,7 +35,7 @@ public class TC003_SearchToSimpleComputerToPurachaseOrder  extends BaseClass{
 		s.SelectHDD("320");
 		s.SelectSoftwareImageViewer();
 		s.clickOnAddTocartButton();
-		s.clickToGoHomePage();
+		//s.clickToGoHomePage();
 		h.clicklinkAddTocart();
 		h.clickGoToCart();
 		}
@@ -64,7 +64,7 @@ public class TC003_SearchToSimpleComputerToPurachaseOrder  extends BaseClass{
 		
 		c.automateShipping();
 		c.automatePayment(p.getProperty("cardNetwork"), p.getProperty("cardholdername"), p.getProperty("cardNumber"), p.getProperty("expDate"), p.getProperty("expYear"), p.getProperty("cvv"));
-
+        c.ConfirmOrder();
 		
 	
 

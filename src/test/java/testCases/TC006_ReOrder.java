@@ -26,8 +26,9 @@ public class TC006_ReOrder extends BaseClass{
 	@Test(groups= {"Sanity", "Master"}, priority = 2)
 	public void ReorderTheProduct() {
 		HomePage h = new HomePage(driver);
-		h.getOrderslink();
+		h.getOrderslink().click();
 		MyAccountOrdersPage my = new MyAccountOrdersPage(driver);
+		my.getProductDetails().click();
 		my.getReOrderbtn().click();
 		
 		
