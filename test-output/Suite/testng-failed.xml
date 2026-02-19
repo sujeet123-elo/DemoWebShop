@@ -4,19 +4,59 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="SearchAndClickOnProductOfAutoSuggAndAddIntoCart(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="GoToCartAndCheckout"/>
+          <include name="CheckoutAndBillingPaymentDelhivery"/>
+        </methods>
+      </class> <!-- testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart -->
+    </classes>
+  </test> <!-- SearchAndClickOnProductOfAutoSuggAndAddIntoCart(failed) -->
+  <test thread-count="5" name="SearchToSimpleComputerToPurachaseOrder(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testCases.TC003_SearchToSimpleComputerToPurachaseOrder">
         <methods>
           <include name="tearDown"/>
-          <include name="CheckoutAndBillingPaymentDelhivery"/>
-          <include name="GoToCartAndCheckout"/>
           <include name="setup"/>
           <include name="SearchProduct"/>
         </methods>
       </class> <!-- testCases.TC003_SearchToSimpleComputerToPurachaseOrder -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- SearchToSimpleComputerToPurachaseOrder(failed) -->
+  <test thread-count="5" name="ReOrder(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC006_ReOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ReorderTheProduct"/>
+          <include name="setup"/>
+          <include name="CheckouFromCart"/>
+          <include name="ReCheckoutAndBillingPaymentDelhivery"/>
+        </methods>
+      </class> <!-- testCases.TC006_ReOrder -->
+    </classes>
+  </test> <!-- ReOrder(failed) -->
+  <test thread-count="5" name="LoginDDT(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC001_LoginDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLoginData" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- testCases.TC001_LoginDDT -->
+    </classes>
+  </test> <!-- LoginDDT(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-10T08:08:49 IST" name="Suite" finished-at="2026-02-10T08:09:12 IST" duration-ms="23769">
+  <suite started-at="2026-02-10T09:45:17 IST" name="Suite" finished-at="2026-02-10T09:45:33 IST" duration-ms="16225">
     <groups>
       <group name="Master">
-        <method signature="TC003_SearchToSimpleComputerToPurachaseOrder.LoginPage()[pri:1, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" name="LoginPage" class="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/>
-        <method signature="TC003_SearchToSimpleComputerToPurachaseOrder.SearchProduct()[pri:2, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" name="SearchProduct" class="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/>
-        <method signature="TC003_SearchToSimpleComputerToPurachaseOrder.GoToCartAndCheckout()[pri:3, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" name="GoToCartAndCheckout" class="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/>
-        <method signature="TC003_SearchToSimpleComputerToPurachaseOrder.CheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" name="CheckoutAndBillingPaymentDelhivery" class="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/>
+        <method signature="TC005_ClearTheCart.LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@696f0212]" name="LoginTheSite" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@696f0212]" name="AddToCart" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@696f0212]" name="GoToCartAndClear" class="testCases.TC005_ClearTheCart"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC003_SearchToSimpleComputerToPurachaseOrder.LoginPage()[pri:1, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" name="LoginPage" class="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/>
-        <method signature="TC003_SearchToSimpleComputerToPurachaseOrder.SearchProduct()[pri:2, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" name="SearchProduct" class="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/>
-        <method signature="TC003_SearchToSimpleComputerToPurachaseOrder.GoToCartAndCheckout()[pri:3, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" name="GoToCartAndCheckout" class="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/>
-        <method signature="TC003_SearchToSimpleComputerToPurachaseOrder.CheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" name="CheckoutAndBillingPaymentDelhivery" class="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/>
+        <method signature="TC005_ClearTheCart.LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@696f0212]" name="LoginTheSite" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@696f0212]" name="AddToCart" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@696f0212]" name="GoToCartAndClear" class="testCases.TC005_ClearTheCart"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2026-02-10T08:08:49 IST" name="Test" finished-at="2026-02-10T08:09:12 IST" duration-ms="23769">
-      <class name="testCases.TC003_SearchToSimpleComputerToPurachaseOrder">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" started-at="2026-02-10T08:08:49 IST" name="setup" finished-at="2026-02-10T08:08:55 IST" duration-ms="5610" status="PASS">
+    <test started-at="2026-02-10T09:45:17 IST" name="SearchToSimpleComputerToPurachaseOrder" finished-at="2026-02-10T09:45:33 IST" duration-ms="16225">
+      <class name="testCases.TC005_ClearTheCart">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:17 IST" name="setup" finished-at="2026-02-10T09:45:22 IST" duration-ms="5472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,27 +33,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginPage()[pri:1, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" started-at="2026-02-10T08:08:55 IST" name="LoginPage" finished-at="2026-02-10T08:08:57 IST" duration-ms="2590" status="PASS">
+        <test-method signature="LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:22 IST" name="LoginTheSite" finished-at="2026-02-10T09:45:24 IST" duration-ms="1789" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginPage -->
-        <test-method signature="SearchProduct()[pri:2, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" started-at="2026-02-10T08:08:57 IST" name="SearchProduct" finished-at="2026-02-10T08:09:04 IST" duration-ms="6710" status="PASS">
+        </test-method> <!-- LoginTheSite -->
+        <test-method signature="AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:24 IST" name="AddToCart" finished-at="2026-02-10T09:45:30 IST" duration-ms="6084" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchProduct -->
-        <test-method signature="GoToCartAndCheckout()[pri:3, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" started-at="2026-02-10T08:09:04 IST" name="GoToCartAndCheckout" finished-at="2026-02-10T08:09:07 IST" duration-ms="2955" status="PASS">
+        </test-method> <!-- AddToCart -->
+        <test-method signature="GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:30 IST" name="GoToCartAndClear" finished-at="2026-02-10T09:45:32 IST" duration-ms="2125" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoToCartAndCheckout -->
-        <test-method signature="CheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" started-at="2026-02-10T08:09:07 IST" name="CheckoutAndBillingPaymentDelhivery" finished-at="2026-02-10T08:09:12 IST" duration-ms="4924" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckoutAndBillingPaymentDelhivery -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_SearchToSimpleComputerToPurachaseOrder@5733f295]" started-at="2026-02-10T08:09:12 IST" name="tearDown" finished-at="2026-02-10T08:09:12 IST" duration-ms="529" status="PASS">
+        </test-method> <!-- GoToCartAndClear -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:32 IST" name="tearDown" finished-at="2026-02-10T09:45:33 IST" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC003_SearchToSimpleComputerToPurachaseOrder -->
-    </test> <!-- Test -->
+      </class> <!-- testCases.TC005_ClearTheCart -->
+    </test> <!-- SearchToSimpleComputerToPurachaseOrder -->
   </suite> <!-- Suite -->
 </testng-results>

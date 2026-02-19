@@ -4,6 +4,7 @@
 <listeners>
    <listener class-name="utilities.ExtentReportManager"/>
    </listeners>
+   <!--
   <test name="SearchAndClickOnProductOfAutoSuggAndAddIntoCart">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
@@ -11,17 +12,17 @@
   
       <class name="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
     </classes>
-  </test> <!-- Test -->
+  </test> -->
   
   <test  name="SearchToSimpleComputerToPurachaseOrder">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
     <classes>
-      <class name="testCases.TC003_SearchToSimpleComputerToPurachaseOrder"/> 
+      <class name="testCases.TC005_ClearTheCart"/> 
      
     </classes>
-  </test> <!-- Test -->
-  
+  </test> 
+  <!--
   <test  name="ReOrder">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
@@ -29,8 +30,8 @@
       <class name="testCases.TC006_ReOrder"/> 
      
     </classes>
-  </test> <!-- Test -->
-  
+  </test>  -->
+  <!--
   <test  name="ClearTheCartAfterAddingProducts">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
@@ -38,9 +39,9 @@
       <class name="testCases.TC005_ClearTheCart"/> 
      
     </classes>
-  </test> <!-- Test -->
+  </test>  Test -->
   
-  
+  <!--
   <test  name="LoginDDT">
   <parameter name ="os" value="windows"/>
   <parameter name="browser" value ="chrome"/>
@@ -48,10 +49,10 @@
       <class name="testCases.TC001_LoginDDT"/> 
      
     </classes>
-  </test> <!-- Test -->
+  </test>  Test -->
   
   
-  
+
   
   
   

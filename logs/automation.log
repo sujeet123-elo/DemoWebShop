@@ -16,3 +16,32 @@
 08:08:49.146 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\testng.xml
 
+09:25:26.265 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\master.xml
+
+09:26:32.732 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\master.xml
+
+09:26:40.373 [main] INFO  testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+09:27:41.101 [main] INFO  testCases.TC006_ReOrder - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+09:28:11.353 [main] INFO  testCases.TC005_ClearTheCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+09:42:34.831 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\master.xml
+
+09:42:45.508 [main] INFO  testCases.TC003_SearchToSimpleComputerToPurachaseOrder - searchs the items
+09:42:47.447 [main] INFO  testCases.TC003_SearchToSimpleComputerToPurachaseOrder - click on  Simple computer
+09:42:47.531 [main] INFO  testCases.TC003_SearchToSimpleComputerToPurachaseOrder - select processor
+09:42:47.622 [main] INFO  testCases.TC003_SearchToSimpleComputerToPurachaseOrder - select ram
+09:42:47.708 [main] INFO  testCases.TC003_SearchToSimpleComputerToPurachaseOrder - select HDD
+09:42:47.809 [main] INFO  testCases.TC003_SearchToSimpleComputerToPurachaseOrder - select image Viewer
+09:42:47.909 [main] INFO  testCases.TC003_SearchToSimpleComputerToPurachaseOrder - click on add cart button
+09:42:48.712 [main] INFO  testCases.TC003_SearchToSimpleComputerToPurachaseOrder - click link of add cart button
+09:42:49.436 [main] INFO  testCases.TC003_SearchToSimpleComputerToPurachaseOrder - click got to cart button
+09:44:14.189 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\master.xml
+
+09:44:19.935 [main] INFO  testCases.TC006_ReOrder - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+09:45:17.009 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\master.xml
+
+09:45:22.726 [main] INFO  testCases.TC005_ClearTheCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********

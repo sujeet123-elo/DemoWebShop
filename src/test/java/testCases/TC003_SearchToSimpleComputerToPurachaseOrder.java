@@ -25,19 +25,27 @@ public class TC003_SearchToSimpleComputerToPurachaseOrder  extends BaseClass{
 	public void SearchProduct() throws InterruptedException {
 		HomePage h = new HomePage(driver);
 		h.SearchItem("Simple");
+		logger.info("searchs the items");
 		h.clickAutoSuggestion("Simple Computer");
-		
+		logger.info("click on  Simple computer");
 		SimpleComputerPage s =new SimpleComputerPage(driver);
 		Assert.assertEquals(s.getHeading(), "Simple Computer");
 		s.selectprocessor();
+		logger.info("select processor");
 		s.SelectRam("4");
-		
+		logger.info("select ram");
 		s.SelectHDD("320");
+		logger.info("select HDD");
 		s.SelectSoftwareImageViewer();
+		logger.info("select image Viewer");
 		s.clickOnAddTocartButton();
+		logger.info("click on add cart button");
 		//s.clickToGoHomePage();
 		h.clicklinkAddTocart();
+		logger.info("click link of add cart button");
 		h.clickGoToCart();
+		logger.info("click got to cart button");
+
 		}
 	@Test(groups= {"Sanity", "Master"}, priority = 3)
 	public void GoToCartAndCheckout() {
