@@ -1,11 +1,14 @@
 package PageObject;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ShoppingCartPage  extends BasePage{
 
@@ -24,7 +27,9 @@ public class ShoppingCartPage  extends BasePage{
 	@FindBy(xpath="//form[@action='/cart']//tbody//tr[@class='cart-item-row']") List<WebElement> num_of_product;
 	@FindBy(xpath="//form[@action='/cart']//tbody//tr[@class='cart-item-row']//td//input[@type='checkbox']") List<WebElement> removefromcart;
 	@FindBy(xpath="//input[@name='updatecart']") WebElement updatecart;
+	WebDriverWait wait;
 	int num;
+	
 	public int GetNumOfProductInCart() {
 		num = num_of_product.size();
 		return num;
@@ -48,7 +53,9 @@ public class ShoppingCartPage  extends BasePage{
 		txtitemquantity.sendKeys(s);
 	}
 	public void SelectCountry(String s) {
-		Select se = new Select(dropdown_country);
+		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		WebElement dc = wait.until(ExpectedConditions.elementToBeClickable(dropdown_country));
+		Select se = new Select(dc);
 		se.selectByVisibleText(s);
 	}
 	

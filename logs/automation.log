@@ -45,3 +45,18 @@
   C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\master.xml
 
 09:45:22.726 [main] INFO  testCases.TC005_ClearTheCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+21:36:22.434 [main] INFO  testCases.TC005_ClearTheCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+00:20:10.389 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\master.xml
+
+00:20:14.051 [main] INFO  testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+00:20:51.272 [main] INFO  testCases.TC005_ClearTheCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+00:21:03.486 [main] INFO  testCases.TC006_ReOrder - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+00:21:27.675 [main] INFO  testCases.TC005_ClearTheCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+00:38:43.925 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\master.xml
+
+00:38:50.537 [main] INFO  testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+00:39:17.637 [main] INFO  testCases.TC005_ClearTheCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+00:39:32.411 [main] INFO  testCases.TC006_ReOrder - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********
+00:39:52.861 [main] INFO  testCases.TC005_ClearTheCart - *******TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart**********

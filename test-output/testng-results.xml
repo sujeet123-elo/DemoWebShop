@@ -1,23 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-10T09:45:17 IST" name="Suite" finished-at="2026-02-10T09:45:33 IST" duration-ms="16225">
+  <suite started-at="2026-03-04T00:38:43 IST" name="Suite" finished-at="2026-03-04T00:40:29 IST" duration-ms="105778">
     <groups>
       <group name="Master">
-        <method signature="TC005_ClearTheCart.LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@696f0212]" name="LoginTheSite" class="testCases.TC005_ClearTheCart"/>
-        <method signature="TC005_ClearTheCart.AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@696f0212]" name="AddToCart" class="testCases.TC005_ClearTheCart"/>
-        <method signature="TC005_ClearTheCart.GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@696f0212]" name="GoToCartAndClear" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.LoginAccount()[pri:1, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" name="LoginAccount" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.AddToCart()[pri:2, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" name="AddToCart" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.GoToCartAndCheckout()[pri:3, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" name="GoToCartAndCheckout" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.CheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" name="CheckoutAndBillingPaymentDelhivery" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC005_ClearTheCart.LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@4212a0c8]" name="LoginTheSite" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@4212a0c8]" name="AddToCart" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@4212a0c8]" name="GoToCartAndClear" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC006_ReOrder.LoginInApplicatinon()[pri:1, instance:testCases.TC006_ReOrder@17a87e37]" name="LoginInApplicatinon" class="testCases.TC006_ReOrder"/>
+        <method signature="TC006_ReOrder.ReorderTheProduct()[pri:2, instance:testCases.TC006_ReOrder@17a87e37]" name="ReorderTheProduct" class="testCases.TC006_ReOrder"/>
+        <method signature="TC006_ReOrder.CheckouFromCart()[pri:3, instance:testCases.TC006_ReOrder@17a87e37]" name="CheckouFromCart" class="testCases.TC006_ReOrder"/>
+        <method signature="TC006_ReOrder.ReCheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC006_ReOrder@17a87e37]" name="ReCheckoutAndBillingPaymentDelhivery" class="testCases.TC006_ReOrder"/>
+        <method signature="TC005_ClearTheCart.LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@6da00fb9]" name="LoginTheSite" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@6da00fb9]" name="AddToCart" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@6da00fb9]" name="GoToCartAndClear" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC001_LoginDDT.VerifyLoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginDDT@3a3e4aff]" name="VerifyLoginData" class="testCases.TC001_LoginDDT"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC005_ClearTheCart.LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@696f0212]" name="LoginTheSite" class="testCases.TC005_ClearTheCart"/>
-        <method signature="TC005_ClearTheCart.AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@696f0212]" name="AddToCart" class="testCases.TC005_ClearTheCart"/>
-        <method signature="TC005_ClearTheCart.GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@696f0212]" name="GoToCartAndClear" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.LoginAccount()[pri:1, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" name="LoginAccount" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.AddToCart()[pri:2, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" name="AddToCart" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.GoToCartAndCheckout()[pri:3, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" name="GoToCartAndCheckout" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.CheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" name="CheckoutAndBillingPaymentDelhivery" class="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart"/>
+        <method signature="TC005_ClearTheCart.LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@4212a0c8]" name="LoginTheSite" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@4212a0c8]" name="AddToCart" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@4212a0c8]" name="GoToCartAndClear" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC006_ReOrder.LoginInApplicatinon()[pri:1, instance:testCases.TC006_ReOrder@17a87e37]" name="LoginInApplicatinon" class="testCases.TC006_ReOrder"/>
+        <method signature="TC006_ReOrder.ReorderTheProduct()[pri:2, instance:testCases.TC006_ReOrder@17a87e37]" name="ReorderTheProduct" class="testCases.TC006_ReOrder"/>
+        <method signature="TC006_ReOrder.CheckouFromCart()[pri:3, instance:testCases.TC006_ReOrder@17a87e37]" name="CheckouFromCart" class="testCases.TC006_ReOrder"/>
+        <method signature="TC006_ReOrder.ReCheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC006_ReOrder@17a87e37]" name="ReCheckoutAndBillingPaymentDelhivery" class="testCases.TC006_ReOrder"/>
+        <method signature="TC005_ClearTheCart.LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@6da00fb9]" name="LoginTheSite" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@6da00fb9]" name="AddToCart" class="testCases.TC005_ClearTheCart"/>
+        <method signature="TC005_ClearTheCart.GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@6da00fb9]" name="GoToCartAndClear" class="testCases.TC005_ClearTheCart"/>
       </group> <!-- Sanity -->
+      <group name="DataDriven">
+        <method signature="TC001_LoginDDT.VerifyLoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginDDT@3a3e4aff]" name="VerifyLoginData" class="testCases.TC001_LoginDDT"/>
+      </group> <!-- DataDriven -->
     </groups>
-    <test started-at="2026-02-10T09:45:17 IST" name="SearchToSimpleComputerToPurachaseOrder" finished-at="2026-02-10T09:45:33 IST" duration-ms="16225">
-      <class name="testCases.TC005_ClearTheCart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:17 IST" name="setup" finished-at="2026-02-10T09:45:22 IST" duration-ms="5472" status="PASS">
+    <test started-at="2026-03-04T00:38:43 IST" name="SearchAndClickOnProductOfAutoSuggAndAddIntoCart" finished-at="2026-03-04T00:39:10 IST" duration-ms="26155">
+      <class name="testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" started-at="2026-03-04T00:38:44 IST" name="setup" finished-at="2026-03-04T00:38:50 IST" duration-ms="6240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,23 +59,289 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:22 IST" name="LoginTheSite" finished-at="2026-02-10T09:45:24 IST" duration-ms="1789" status="PASS">
+        <test-method signature="LoginAccount()[pri:1, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" started-at="2026-03-04T00:38:50 IST" name="LoginAccount" finished-at="2026-03-04T00:38:51 IST" duration-ms="943" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTheSite -->
-        <test-method signature="AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:24 IST" name="AddToCart" finished-at="2026-02-10T09:45:30 IST" duration-ms="6084" status="PASS">
+        </test-method> <!-- LoginAccount -->
+        <test-method signature="AddToCart()[pri:2, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" started-at="2026-03-04T00:38:51 IST" name="AddToCart" finished-at="2026-03-04T00:38:56 IST" duration-ms="4870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToCart -->
-        <test-method signature="GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:30 IST" name="GoToCartAndClear" finished-at="2026-02-10T09:45:32 IST" duration-ms="2125" status="PASS">
+        <test-method signature="GoToCartAndCheckout()[pri:3, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" started-at="2026-03-04T00:38:56 IST" name="GoToCartAndCheckout" finished-at="2026-03-04T00:38:59 IST" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToCartAndCheckout -->
+        <test-method signature="CheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" started-at="2026-03-04T00:38:59 IST" name="CheckoutAndBillingPaymentDelhivery" finished-at="2026-03-04T00:39:07 IST" duration-ms="8807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutAndBillingPaymentDelhivery -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart@5733f295]" started-at="2026-03-04T00:39:07 IST" name="tearDown" finished-at="2026-03-04T00:39:10 IST" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart -->
+    </test> <!-- SearchAndClickOnProductOfAutoSuggAndAddIntoCart -->
+    <test started-at="2026-03-04T00:39:12 IST" name="SearchToSimpleComputerToPurachaseOrder" finished-at="2026-03-04T00:39:26 IST" duration-ms="14456">
+      <class name="testCases.TC005_ClearTheCart">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_ClearTheCart@4212a0c8]" started-at="2026-03-04T00:39:12 IST" name="setup" finished-at="2026-03-04T00:39:17 IST" duration-ms="5263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@4212a0c8]" started-at="2026-03-04T00:39:17 IST" name="LoginTheSite" finished-at="2026-03-04T00:39:18 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTheSite -->
+        <test-method signature="AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@4212a0c8]" started-at="2026-03-04T00:39:18 IST" name="AddToCart" finished-at="2026-03-04T00:39:23 IST" duration-ms="5392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method signature="GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@4212a0c8]" started-at="2026-03-04T00:39:23 IST" name="GoToCartAndClear" finished-at="2026-03-04T00:39:26 IST" duration-ms="2608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoToCartAndClear -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_ClearTheCart@696f0212]" started-at="2026-02-10T09:45:32 IST" name="tearDown" finished-at="2026-02-10T09:45:33 IST" duration-ms="446" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_ClearTheCart@4212a0c8]" started-at="2026-03-04T00:39:26 IST" name="tearDown" finished-at="2026-03-04T00:39:26 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC005_ClearTheCart -->
     </test> <!-- SearchToSimpleComputerToPurachaseOrder -->
+    <test started-at="2026-03-04T00:39:27 IST" name="ReOrder" finished-at="2026-03-04T00:39:46 IST" duration-ms="19458">
+      <class name="testCases.TC006_ReOrder">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_ReOrder@17a87e37]" started-at="2026-03-04T00:39:27 IST" name="setup" finished-at="2026-03-04T00:39:32 IST" duration-ms="5175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginInApplicatinon()[pri:1, instance:testCases.TC006_ReOrder@17a87e37]" started-at="2026-03-04T00:39:32 IST" name="LoginInApplicatinon" finished-at="2026-03-04T00:39:34 IST" duration-ms="1659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApplicatinon -->
+        <test-method signature="ReorderTheProduct()[pri:2, instance:testCases.TC006_ReOrder@17a87e37]" started-at="2026-03-04T00:39:34 IST" name="ReorderTheProduct" finished-at="2026-03-04T00:39:36 IST" duration-ms="2545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReorderTheProduct -->
+        <test-method signature="CheckouFromCart()[pri:3, instance:testCases.TC006_ReOrder@17a87e37]" started-at="2026-03-04T00:39:36 IST" name="CheckouFromCart" finished-at="2026-03-04T00:39:39 IST" duration-ms="2444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckouFromCart -->
+        <test-method signature="ReCheckoutAndBillingPaymentDelhivery()[pri:4, instance:testCases.TC006_ReOrder@17a87e37]" started-at="2026-03-04T00:39:39 IST" name="ReCheckoutAndBillingPaymentDelhivery" finished-at="2026-03-04T00:39:46 IST" duration-ms="7349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReCheckoutAndBillingPaymentDelhivery -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_ReOrder@17a87e37]" started-at="2026-03-04T00:39:46 IST" name="tearDown" finished-at="2026-03-04T00:39:46 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC006_ReOrder -->
+    </test> <!-- ReOrder -->
+    <test started-at="2026-03-04T00:39:47 IST" name="ClearTheCartAfterAddingProducts" finished-at="2026-03-04T00:40:02 IST" duration-ms="14372">
+      <class name="testCases.TC005_ClearTheCart">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_ClearTheCart@6da00fb9]" started-at="2026-03-04T00:39:47 IST" name="setup" finished-at="2026-03-04T00:39:52 IST" duration-ms="5041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTheSite()[pri:1, instance:testCases.TC005_ClearTheCart@6da00fb9]" started-at="2026-03-04T00:39:52 IST" name="LoginTheSite" finished-at="2026-03-04T00:39:54 IST" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTheSite -->
+        <test-method signature="AddToCart()[pri:2, instance:testCases.TC005_ClearTheCart@6da00fb9]" started-at="2026-03-04T00:39:54 IST" name="AddToCart" finished-at="2026-03-04T00:39:59 IST" duration-ms="4738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method signature="GoToCartAndClear()[pri:3, instance:testCases.TC005_ClearTheCart@6da00fb9]" started-at="2026-03-04T00:39:59 IST" name="GoToCartAndClear" finished-at="2026-03-04T00:40:01 IST" duration-ms="2651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToCartAndClear -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_ClearTheCart@6da00fb9]" started-at="2026-03-04T00:40:01 IST" name="tearDown" finished-at="2026-03-04T00:40:02 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_ClearTheCart -->
+    </test> <!-- ClearTheCartAfterAddingProducts -->
+    <test started-at="2026-03-04T00:40:02 IST" name="LoginDDT" finished-at="2026-03-04T00:40:29 IST" duration-ms="27254">
+      <class name="testCases.TC001_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginDDT@3a3e4aff]" started-at="2026-03-04T00:40:02 IST" name="setup" finished-at="2026-03-04T00:40:07 IST" duration-ms="4893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginDDT@3a3e4aff]" started-at="2026-03-04T00:40:08 IST" name="VerifyLoginData" data-provider="LoginData" finished-at="2026-03-04T00:40:11 IST" duration-ms="3557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sujeetlava123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SnD#pPe3C!NeE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginData -->
+        <test-method signature="VerifyLoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginDDT@3a3e4aff]" started-at="2026-03-04T00:40:11 IST" name="VerifyLoginData" data-provider="LoginData" finished-at="2026-03-04T00:40:14 IST" duration-ms="2904" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sujeetl23ava@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345qwert]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC001_LoginDDT.VerifyLoginData(TC001_LoginDDT.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginData -->
+        <test-method signature="VerifyLoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginDDT@3a3e4aff]" started-at="2026-03-04T00:40:15 IST" name="VerifyLoginData" data-provider="LoginData" finished-at="2026-03-04T00:40:17 IST" duration-ms="2877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anoopmaurya@gamil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456qwer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginData -->
+        <test-method signature="VerifyLoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginDDT@3a3e4aff]" started-at="2026-03-04T00:40:17 IST" name="VerifyLoginData" data-provider="LoginData" finished-at="2026-03-04T00:40:29 IST" duration-ms="11201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234567wert]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_LoginDDT@3a3e4aff]" started-at="2026-03-04T00:40:29 IST" name="tearDown" finished-at="2026-03-04T00:40:29 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_LoginDDT -->
+    </test> <!-- LoginDDT -->
   </suite> <!-- Suite -->
 </testng-results>

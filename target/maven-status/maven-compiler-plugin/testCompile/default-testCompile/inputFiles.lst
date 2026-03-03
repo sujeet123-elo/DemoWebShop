@@ -3,6 +3,7 @@ C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\Page
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\PageObject\GiftCardPage.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\PageObject\HomePage.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\PageObject\LoginPage.java
+C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\PageObject\MyAccountOrdersPage.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\PageObject\OrderInforamationPage.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\PageObject\RagisterPage.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\PageObject\ShoppingCartPage.java
@@ -13,6 +14,7 @@ C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\test
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\testCases\TC002_SearchAndClickOnProductOfAutoSuggAndAddIntoCart.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\testCases\TC003_SearchToSimpleComputerToPurachaseOrder.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\testCases\TC005_ClearTheCart.java
+C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\testCases\TC006_ReOrder.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\utilities\DataProviders.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\utilities\ExcelUtility.java
 C:\Users\actno\OneDrive\Desktop\SeleniumWebdriber\DemoWebShop\src\test\java\utilities\ExtentReportManager.java
